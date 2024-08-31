@@ -12,11 +12,19 @@
     <body>
         <nav class = "navbar bg-dark navbar-dark fixed-top navbar-expand-md">
             <a href = "#"><img src = "prototype p2.png" height = "50" width = "50" class = "img-responsive"></a>
+            <button class = "navbar-toggler" data-toggle= "collapse" data-target="#ident" type = "button">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+            <div id= "ident" class="collapse navbar-collapse">
             <ul class = "navbar-nav ml-auto">
                 <li class = "nav-item"><a  class = "nav-link" href = "#tr">Who</a></li>
                 <li class = "nav-item"><a class = "nav-link" href = "#but">What</a></li>
                 <li class = "nav-item"><a  class = "nav-link" href = "#find">Where</a></li>
             </ul>
+        </div>
+
+
+
         </nav>
         <div id = "tr" class = "container-fluid text-center">
             <h1>Who Am I</h1>
@@ -30,6 +38,16 @@
             <a class = "btn btn-outline-secondary"><span class = "fa fa-search"></span>Search</a>
 
         </div>
+        <!-- this is the modal -->
+         <div class = "modal">
+            <div class = "modal-dialog">
+                <div class = "modal-content">
+                    <div class = "modal-header"></div>
+                    <div class = "modal-body"></div>
+                    <div class = "modal-footer"></div>
+                </div>
+            </div>
+         </div>
 
 
         <div id = "find" class = "container-fluid">
