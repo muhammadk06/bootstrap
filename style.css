@@ -12,3 +12,9 @@
 .bg1{
     background-color: red;
 }
+
+
+.carousel-item img{
+    width: 100%;
+    max-height: 500px;
+}
